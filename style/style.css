@@ -108,3 +108,22 @@ main{
     padding: 130px 150px;
     text-align: center;
 }
+.sectionTitle{
+    margin-bottom: 30px;
+}
+.aboutItems{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px 0;
+}
+.item{
+    font-family: verdana;
+    font-weight: bold;
+    color: olivedrab;
+    
+    
+}
+.item:hover{
+    color:orange;
+}
