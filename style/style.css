@@ -18,7 +18,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     font-family: Open Sans;
-    margin:20px 200px
+    margin:0px 200px;
 }
 nav img{
     width:300px   
@@ -41,12 +41,14 @@ nav ul li a{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+    padding-top: 30px;
 }
 /* Banner Style */
 .bannr{
     display: flex;
     justify-content: space-between;
     margin:0 35px 0 230px;
+   
 }
 .contact{
     background-color: white;
@@ -92,7 +94,10 @@ nav ul li a{
 /* Main Section Style */
 main{
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    box-shadow: 0px 1px 9px gray;
+    border-radius: 10px;
 }
 
 /* About Style is Here */
