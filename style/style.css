@@ -36,5 +36,36 @@ nav ul li a{
     font-size: 20px;
     color: #474747;
 }
+/* Header style */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* Banner Style */
+.bannr{
+    display: flex;
+    justify-content: space-between;
+    margin:0 35px 0 230px;
+}
+.bannarContent{
+    max-width: 580px;
+}
+.bannerGreetings{
+    font-family: Open Sans ;
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannarTitle{
+    font-family: Open Sans;
+    font-size: 85px;
+}
+.banner-description{
+    font-family: open sans;
+    font-size: 18px;
 
+}
+.bannarImage{
+    width:580px;
+}
 
