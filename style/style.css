@@ -18,8 +18,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     font-family: Open Sans;
-    margin:0 200px;
-    padding: 20px 0;
+    margin:50px 200px;
 }
 nav img{
     width:300px   
@@ -98,7 +97,6 @@ nav ul li a{
 main{
     max-width: 1140px;
     margin: 0 auto;
-    margin-bottom: 100px;
     border-radius: 10px;
 }
 
@@ -165,10 +163,52 @@ main{
     color: white;
     cursor: pointer;
 }
-.skill, img, h4{
+.skill, h4{
   
     margin-bottom: 35px;
 }
 .skill p{
     text-align: left;
+}
+/* Resume Css */
+.resumeTitle{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.resume{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between; 
+    font-family: open sans;
+}
+.resumeColume{
+    width: 512px;
+}
+.resumeEducation{
+    margin-bottom: 20px;
+}
+
+.resumeItem{
+    padding: 20px 50px 0 0;
+}
+.resumSubTitle{
+    display: block;
+   margin-bottom:5px;   
+}
+.resumSubTitle, p{
+    margin-bottom: 20px;
+    color: #424141;
+}
+.resumbtn{
+    margin:50px 0;
+    text-align: center;
+}
+/* Contect Section Css */
+
+.contactSection{
+    width: 1140px;
+    margin:auto;
+    display: flex;
+    padding: 50px 0;
 }
